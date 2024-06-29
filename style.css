@@ -1,0 +1,59 @@
+body, #solveButton, #clearButton {
+    background-image: url("background.jpg");
+    background-color: blanchedalmond;
+    font-family: 'Bacasime Antique', serif;
+}
+#container {
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+table {
+    border-collapse: collapse;
+    font-size: 2em;
+    margin: 0 auto;
+}
+colgroup, tbody {
+    border: solid medium;
+}
+td {
+    border: solid thin;
+    height: 1.4em;
+    width: 1.4em;
+    text-align: center;
+    padding: 0;
+}
+button {
+    margin-top: 15px;
+    font-size: 1.5em;
+}
+.padd, #instr, #buttons {
+    padding-bottom: 20px;
+}
+#heading1 {
+    font-size: 35px;
+}
+#info, #fact, #instr, #solveButton, #clearButton {
+    font-size: 20px;
+}
+#solveButton, #clearButton {
+    background-color: bisque;
+    background-image: none;
+    text-align: center;
+    width: 150px;
+    border-radius: 7px;
+}
+#container {
+    animation-name: animate;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+}
+@keyframes animate {
+    from {
+       opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }    
+}
